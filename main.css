@@ -1,0 +1,127 @@
+/* General body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: white;
+}
+
+/* Header style */
+header {
+    background: #0078d7;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header img {
+    max-width: 150px;
+}
+
+/* Hero section styling */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: url('images/herobackground.jpg') center/cover #0078d7 no-repeat;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Video section styling */
+.video, .features {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.video video, .feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Features section for Cards */
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+}
+
+.feature {
+    text-align: center;
+    margin: 1rem;
+    width: 300px;
+    background-color: #282828;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Esports Teams styling */
+.esports-teams .carousel {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.esports-teams .team {
+    min-width: 180px;
+    margin: 0 1rem;
+}
+
+.esports-teams .team img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Button styling */
+.coolbutton {
+    text-align: center;
+    z-index: 10;
+    margin-bottom: 4rem;
+}
+
+.coolbutton button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.coolbutton button:hover {
+    background-color: #005ba1;
+    transform: scale(1.05);
+}
+
+/* Footer style */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+/* Heading styles */
+h2 {
+    color: black;
+    font: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
